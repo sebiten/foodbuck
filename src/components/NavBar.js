@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function NavBar({ theme, onThemeChange }) {
+function NavBar({ currentTheme, setTheme }) {
   return (
     <nav
       className={`flex justify-between items-center py-4 px-8 bg-${currentTheme}-100`}

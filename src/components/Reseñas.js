@@ -4,7 +4,7 @@ import Review from "./Reseña";
 
 function Reviews() {
   return (
-    <div className="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 my-32">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold text-white">
           Reseñas del restaurante FoodBud

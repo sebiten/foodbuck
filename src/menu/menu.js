@@ -1,0 +1,58 @@
+export const menucomida = [
+  {
+    id: 1,
+    name: "Hamburguesa clásica",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 10.99,
+    image: "/hamburguesas_01.jpg",
+  },
+  {
+    id: 2,
+    name: "Hamburguesa doble",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 12.99,
+    image: "/hamburguesas_02.jpg",
+  },
+  {
+    id: 3,
+    name: "Hamburguesa triple",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 14.99,
+    image: "/hamburguesas_03.jpg",
+  },
+  {
+    id: 4,
+    name: "Hamburguesa con queso",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 11.99,
+    image: "/hamburguesas_04.jpg",
+  },
+  {
+    id: 5,
+    name: "Hamburguesa con tocino",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 11.99,
+    image: "/hamburguesas_05.jpg",
+  },
+  {
+    id: 6,
+    name: "Hamburguesa con huevo",
+    description: "Carne, lechuga, tomate, cebolla y salsa especial",
+    price: 3.99,
+    image: "/hamburguesas_06.jpg",
+  },
+  {
+    id: 7,
+    name: "Pizza",
+    description: "Pizza",
+    price: 9.99,
+    image: "/pizzas_09.jpg",
+  },
+  {
+    id: 8,
+    name: "Galleta",
+    description: "Galleta",
+    price: 8.99,
+    image: "/galletas_02.jpg",
+  },
+];

@@ -18,8 +18,6 @@ export const FoodProvider = ({ children }) => {
       value={{
         currentTheme,
         setTheme,
-        systemTheme,
-        
       }}
     >
       {children}

@@ -34,7 +34,13 @@ function NavBar({ currentTheme, setTheme }) {
             className="bg-black-700 hover:bg-black text-white rounded-md border-pink-600 border-2 px-4 py-2"
             onClick={() => setTheme("light")}
           >
-            <Image src="/sun.svg" alt="light mode" width={20} height={20} />
+            <Image
+              className="fill-current text-white"
+              src="/sun.svg"
+              alt="light mode"
+              width={20}
+              height={20}
+            />
           </button>
         ) : (
           <button

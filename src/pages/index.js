@@ -1,7 +1,11 @@
 import About from "@/components/About";
+import Consejos from "@/components/Consejos";
+import Contacto from "@/components/Contacto";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/Hero";
 import Menu from "@/components/Menu";
 import NavBar from "@/components/NavBar";
+import Reviews from "@/components/Reseñas";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -21,7 +25,11 @@ export default function Navbar() {
       <NavBar currentTheme={currentTheme} theme={theme} setTheme={setTheme} />
       <HeroSection />
       <About />
-      <Menu/>
+      <Menu />
+      <Reviews />
+      <Consejos/>
+      <Contacto/>
+      <Footer />
     </>
   );
 }

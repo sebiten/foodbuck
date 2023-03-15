@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { menucomida } from "@/menu/menu";
+import { menucomida } from "@/data/menu.js";
 
 const Menu = () => {
   return (

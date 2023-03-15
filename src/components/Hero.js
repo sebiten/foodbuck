@@ -34,12 +34,12 @@ const HeroSection = () => {
                   >
                     Reserva ahora
                   </Link>
-                  <a
+                  <Link
                     href="#"
                     className="bg-white text-gray-800 font-bold rounded-full px-8 py-3 hover:bg-gray-900"
                   >
                     Conoce más
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function NavBar({ currentTheme, setTheme }) {
@@ -13,20 +14,20 @@ function NavBar({ currentTheme, setTheme }) {
       <div className="flex gap-10">
         <ul className="flex justify-between gap-10 xl:mr-10">
           <li>
-            <a
+            <Link
               href="#"
               className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
             >
               Inicio
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
             >
               Menú
-            </a>
+            </Link>
           </li>
         </ul>
         {currentTheme === "dark" ? (

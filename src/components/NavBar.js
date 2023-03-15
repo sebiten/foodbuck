@@ -12,24 +12,20 @@ function NavBar({ currentTheme, setTheme }) {
         <span className="text-2xl font-bold text-gray-800">Foodbud</span>
       </div>
       <div className="flex gap-10">
-        <ul className="flex justify-between gap-10 xl:mr-10">
-          <li>
-            <Link
-              href="#"
-              className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
-            >
-              Inicio
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
-            >
-              Menú
-            </Link>
-          </li>
-        </ul>
+        <Link
+          href="#"
+          className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
+        >
+          Inicio
+        </Link>
+
+        <Link
+          href="#"
+          className={`text-gray-800 hover:text-gray-600 font-semibold text-lg`}
+        >
+          Menú
+        </Link>
+
         {currentTheme === "dark" ? (
           <button
             className="bg-black-700 hover:bg-black text-white rounded-md border-pink-600 border-2 px-4 py-2"

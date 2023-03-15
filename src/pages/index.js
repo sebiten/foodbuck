@@ -6,8 +6,8 @@ import HeroSection from "@/components/Hero";
 import Menu from "@/components/Menu";
 import NavBar from "@/components/NavBar";
 import Reviews from "@/components/Reseñas";
-import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
   const { theme, systemThem, setTheme } = useTheme();
@@ -27,8 +27,8 @@ export default function Navbar() {
       <About />
       <Menu />
       <Reviews />
-      <Consejos/>
-      <Contacto/>
+      <Consejos />
+      <Contacto />
       <Footer />
     </>
   );
